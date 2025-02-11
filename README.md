@@ -111,5 +111,5 @@ This project is licensed under the **MIT License**.
 ## 📧 Contact
 For any queries or suggestions, feel free to reach out:
 📩 Email: [adhikariaayush633@gmail.com](mailto:adhikariaayush633@gmail.com)
-🔗 GitHub: [your-github-profile](https://github.com/your-username)
+🔗 GitHub: [Ayush-Adk](https://github.com/Ayush-Adk)
 
