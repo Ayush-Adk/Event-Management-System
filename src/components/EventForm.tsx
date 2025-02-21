@@ -85,21 +85,27 @@ export function EventForm({ editMode, eventId }: EventFormProps) {
   };
 
   const handleViewEvent = () => {
-    // In a real app, this would navigate to the event details page
     navigate(`/calendar?event=${createdEventId}`);
   };
 
   const shareUrl = `${window.location.origin}/event/${eventId || createdEventId || ''}`;
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-4xl mx-auto py-8">
       {!showQR ? (
         <motion.form
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="space-y-8"
+          className="space-y-8 p-6 rounded-lg bg-white dark:bg-gray-800"
           onSubmit={handleSubmit}
         >
+          <h2 className={cn(
+            'text-2xl font-bold mb-6',
+            darkMode ? 'text-white' : 'text-gray-900'
+          )}>
+            {editMode ? 'Edit Event' : 'Create New Event'}
+          </h2>
+
           <div className="space-y-6">
             <div>
               <label className={cn(
