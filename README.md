@@ -9,8 +9,8 @@ The **Event Management System** is a modern web application built using **React*
 - **Styling:** Tailwind CSS / Styled Components
 - **Routing:** React Router
 - **API Communication:** Axios / Fetch API
-- **Authentication:** Firebase Auth / JWT (if applicable)
-- **Database:** Firestore / PostgreSQL / MongoDB (if applicable)
+- **Authentication:** Firebase Auth / JWT 
+- **Database:** Firestore / PostgreSQL / MongoDB
 
 ## 🎯 Features
 - ✅ User Authentication (Sign Up / Login)
