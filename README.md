@@ -5,7 +5,7 @@ The **Event Management System** is a modern web application built using **React*
 
 ## 🛠️ Tech Stack
 - **Frontend:** React, TypeScript, Vite
-- **State Management:** Redux Toolkit / React Context API (if applicable)
+- **State Management:** Redux Toolkit / React Context API 
 - **Styling:** Tailwind CSS / Styled Components
 - **Routing:** React Router
 - **API Communication:** Axios / Fetch API
